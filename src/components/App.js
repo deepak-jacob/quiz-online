@@ -3,46 +3,36 @@ import AppBar from 'material-ui/AppBar';
 import Drawer from 'material-ui/Drawer';
 import PropTypes from 'prop-types';
 import FlatButton from 'material-ui/FlatButton';
-import {
-  Route,
-  Link
-} from 'react-router-dom'
+import { Route, Link } from 'react-router-dom';
 import Navigation from './Navigation';
-import Home from './Home';
-import Question from './Question';
+import HomeContainer from '../containers/HomeContainer';
+import QuestionsContainer from '../containers/QuestionsContainer';
 
-
-const App = ({ appDrawerOpen, handleToggle }) => (
+const App = ({ appDrawerOpen, handleToggle }) =>
   <div>
 
     <AppBar
       title="Quizline"
       onLeftIconButtonTouchTap={handleToggle}
-      iconElementRight={<FlatButton
-        label="Login"
-        containerElement={<Link to="/login" />}
-      />}
+      iconElementRight={
+        <FlatButton label="Login" containerElement={<Link to="/login" />} />
+      }
     />
 
-    <Drawer
-      docked={false}
-      open={appDrawerOpen}
-      onRequestChange={handleToggle}
-    >
+    <Drawer docked={false} open={appDrawerOpen} onRequestChange={handleToggle}>
       <Navigation handleToggle={handleToggle} />
     </Drawer>
 
-    <div style={{padding: "10px"}}>
-      <Route exact path="/" component={Home} />
-      <Route path="/question" component={Question} />
+    <div style={{ padding: '10px' }}>
+      <Route exact path="/" component={HomeContainer} />
+      <Route path="/question/:index" component={QuestionsContainer} />
     </div>
 
-  </div>
-);
+  </div>;
 
 App.propTypes = {
   appDrawerOpen: PropTypes.bool.isRequired,
-  handleToggle: PropTypes.func.isRequired
+  handleToggle: PropTypes.func.isRequired,
 };
 
 export default App;

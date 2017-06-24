@@ -11,7 +11,7 @@ const styleLink = {
   textDecoration: 'none',
 };
 
-const Navigation = ({ handleToggle }) => (
+const Navigation = ({ handleToggle }) =>
   <div>
     <List>
       <ListItem
@@ -33,8 +33,7 @@ const Navigation = ({ handleToggle }) => (
         containerElement={<Link key="navAdd" style={styleLink} to="/add" />}
       />
     </List>
-  </div>
-);
+  </div>;
 
 Navigation.propTypes = {
   handleToggle: PropTypes.func.isRequired,

@@ -1,0 +1,338 @@
+[
+{
+	"id": "BB1002",
+	"topic": "Alertness",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s12, HC p128",
+		"text": "Objects hanging from your interior mirror may",
+		"graphic": false,
+		"prompt": "Mark one answer",
+		"voice": "BB1002-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "restrict your view",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "improve your driving",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "keep you focused",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "help your concentration",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "Ensure that you can see clearly through the windscreen of your vehicle. Stickers or hanging objects could affect your field of vision or draw your eyes away from the road.",
+		"voice": "BB1002-2"
+	}
+},
+
+
+{
+	"id": "BB1003",
+	"topic": "Alertness",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s1, HC r148",
+		"text": "Which of the following may cause loss of concentration on a long journey?",
+		"graphic": false,
+		"prompt": "Mark four answers",
+		"voice": "BB1003-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "Loud music",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "Arguing with a passenger",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "Using a mobile phone",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "Putting in a cassette tape",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Stopping regularly to rest",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Pulling up to tune the radio",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "You should not allow yourself to be distracted when driving. You need to concentrate fully in order to be safe on the road. Loud music could mask other sounds, such as the audible warning of an emergency vehicle. Any distraction which causes you to take your hands off the steering wheel or your eyes off the road could be dangerous.",
+		"voice": "BB1003-2"
+	}
+},
+
+{
+	"id": "BB1005",
+	"topic": "Alertness",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s1, HC r91, HC r262",
+		"text": "On a long motorway journey boredom can cause you to feel sleepy. You should",
+		"graphic": false,
+		"prompt": "Mark two answers",
+		"voice": "BB1005-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "leave the motorway and find a safe place to stop",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "keep looking around at the surrounding landscape",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "drive faster to complete your journey sooner",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "ensure a supply of fresh air into your vehicle",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "stop on the hard shoulder for a rest",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "Plan your journey to include suitable rest stops. You should take all possible precautions against feeling sleepy while driving. Any lapse of concentration could have serious consequences.",
+		"voice": "BB1005-2"
+	}
+},
+
+{
+	"id": "BB1007",
+	"topic": "Alertness",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s13, HC r113-115",
+		"text": "You are driving at dusk. You should switch your lights on",
+		"graphic": false,
+		"prompt": "Mark two answers",
+		"voice": "BB1007-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "even when street lights are not lit",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "so others can see you",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "only when others have done so",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "only when street lights are lit",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "Your headlights and tail lights help others on the road to see you. It may be necessary to turn on your lights during the day if visibility is reduced, for example due to heavy rain. In these conditions the light might fade before the street lights are timed to switch on. Be seen to be safe.",
+		"voice": "BB1007-2"
+	}
+},
+
+{
+	"id": "BB1011",
+	"topic": "Attitude",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s13, HC r115",
+		"text": "You are driving on a clear night. There is a steady stream of oncoming traffic. The national speed limit applies. Which lights should you use?",
+		"graphic": false,
+		"prompt": "Mark one answer",
+		"voice": "BB1011-1"
+	},
+	"answers": [
+		{
+			"correct": false,
+			"text": "Full beam headlights",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Sidelights",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "Dipped headlights",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Fog lights",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "Use the full beam headlights only when you can be sure that you won't dazzle other road users.",
+		"voice": "BB1011-2"
+	}
+},
+
+{
+	"id": "BB1012",
+	"topic": "Attitude",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s10, HC r221",
+		"text": "You are driving behind a large goods vehicle. It signals left but steers to the right. You should",
+		"graphic": false,
+		"prompt": "Mark one answer",
+		"voice": "BB1012-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "slow down and let the vehicle turn",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "drive on, keeping to the left",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "overtake on the right of it",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "hold your speed and sound your horn",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "Large, long vehicles need extra room when making turns at junctions. They may move out to the right in order to make a left turn. Keep well back and don't attempt to pass on the left.",
+		"voice": "BB1012-2"
+	}
+},
+
+{
+	"id": "BB1013",
+	"topic": "Attitude",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s10, HC r168",
+		"text": "You are driving along this road. The red van cuts in close in front of you. What should you do?",
+		"graphic": "BB1013.gif",
+		"prompt": "Mark one answer",
+		"voice": "BB1013-1"
+	},
+	"answers": [
+		{
+			"correct": false,
+			"text": "Accelerate to get closer to the red van",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Give a long blast on the horn",
+			"graphic": false
+		},
+		{
+			"correct": true,
+			"text": "Drop back to leave the correct separation distance",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "Flash your headlights several times",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "There are times when other drivers make incorrect or ill-judged decisions. Be tolerant and try not to retaliate or react aggressively. Always consider the safety of other road users, your passengers and yourself.",
+		"voice": "BB1013-2"
+	}
+},
+
+{
+	"id": "BB1014",
+	"topic": "Attitude",
+	"category": "Car",
+	"ni_exempt": false,
+	"question": {
+		"xref": "DES s13, HC r114",
+		"text": "You are waiting in a traffic queue at night. To avoid dazzling following drivers you should",
+		"graphic": false,
+		"prompt": "Mark one answer",
+		"voice": "BB1014-1"
+	},
+	"answers": [
+		{
+			"correct": true,
+			"text": "apply the handbrake only",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "apply the footbrake only",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "switch off your headlights",
+			"graphic": false
+		},
+		{
+			"correct": false,
+			"text": "use both the handbrake and footbrake",
+			"graphic": false
+		}
+	],
+	"explanation": {
+		"text": "You should consider drivers behind as brake lights can dazzle. However, if you are driving in fog it's safer to keep your foot on the footbrake. In this case it will give the vehicle behind extra warning of your presence.",
+		"voice": "BB1014-2"
+	}
+}
+
+]
