@@ -11,7 +11,10 @@ import ResultContainer from '../containers/ResultContainer';
 const App = ({ appDrawerOpen, handleToggle }) =>
   <div>
 
-    <AppBar title="DVLA like theory test" onLeftIconButtonTouchTap={handleToggle} />
+    <AppBar
+      title="DVLA like theory test"
+      onLeftIconButtonTouchTap={handleToggle}
+    />
 
     <Drawer docked={false} open={appDrawerOpen} onRequestChange={handleToggle}>
       <Navigation handleToggle={handleToggle} />

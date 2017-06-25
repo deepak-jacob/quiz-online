@@ -22,11 +22,11 @@ const answers = (state = {}, action) => {
 
     case types.RECEIVE_ANSWERS:
       let correctAnswers = action.answers.reduce((correctCount, answser) => {
-        if(!state[answser.id]) return correctCount;
+        if (!state[answser.id]) return correctCount;
         let userAnswerStr = state[answser.id].sort().join();
         let serverAnswerStr = answser.answers
           .reduce((serverAnswerArray, ans, index) => {
-            if(ans.correct) serverAnswerArray.push(index);
+            if (ans.correct) serverAnswerArray.push(index);
             return serverAnswerArray;
           }, [])
           .sort()
