@@ -5,16 +5,11 @@ const receiveQuestions = questions => ({
   questions,
 });
 
-export const addAnswerQuestion = (questionId, answerIndex) => ({
-  type: types.ADD_ANSWER_TO_QUESTION,
+export const toggleAnswerQuestion = (questionId, answerIndex, isSelected) => ({
+  type: types.TOGGLE_ANSWER_TO_QUESTION,
   questionId,
   answerIndex,
-});
-
-export const delAnswerQuestion = (questionId, answerIndex) => ({
-  type: types.DELETE_ANSWER_TO_QUESTION,
-  questionId,
-  answerIndex,
+  isSelected,
 });
 
 export const fetchAllQuestions = () => dispatch => {
@@ -23,7 +18,7 @@ export const fetchAllQuestions = () => dispatch => {
       if (response.status >= 200 && response.status < 300) {
         return response;
       } else {
-        var error = new Error(response.statusText);
+        let error = new Error(response.statusText);
         error.response = response;
         throw error;
       }
@@ -36,20 +31,3 @@ export const fetchAllQuestions = () => dispatch => {
       console.log('request failed', error);
     });
 };
-
-export const checkResult = formValues => () => {
-  const formData = Object.keys(formValues)
-    .map(k => `${encodeURIComponent(k)}=${encodeURIComponent(formValues[k])}`)
-    .join('&');
-
-  fetch('/rcnuts', {
-    method: 'POST',
-    body: formData,
-    headers: {
-      Accept: 'application/json, application/xml, text/plain, text/html, *.*',
-      'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8',
-    },
-  });
-};
-
-export const getNutsFromState = state => state.hanaReducers.nuts;

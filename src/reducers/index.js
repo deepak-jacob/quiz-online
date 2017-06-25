@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import env from './env';
 import questions from './questions';
-import answer from './answer';
+import answers from './answers';
 
 const rootReducer = combineReducers({
   env,
   questions,
-  answer,
+  answers,
 });
 
 export default rootReducer;

@@ -22,15 +22,9 @@ const Navigation = ({ handleToggle }) =>
       />
       <ListItem
         leftIcon={<ViewListIcon />}
-        primaryText="List"
+        primaryText="About"
         onTouchTap={handleToggle}
-        containerElement={<Link key="List" style={styleLink} to="/list" />}
-      />
-      <ListItem
-        leftIcon={<NoteAdd />}
-        primaryText="Add"
-        onTouchTap={handleToggle}
-        containerElement={<Link key="navAdd" style={styleLink} to="/add" />}
+        containerElement={<Link key="List" style={styleLink} to="/about" />}
       />
     </List>
   </div>;
