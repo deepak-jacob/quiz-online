@@ -1,0 +1,206 @@
+[
+   {
+      "id":"BB1002",
+      "answers":[
+         {
+            "correct":true,
+            "text":"restrict your view"
+         },
+         {
+            "correct":false,
+            "text":"improve your driving"
+         },
+         {
+            "correct":false,
+            "text":"keep you focused"
+         },
+         {
+            "correct":false,
+            "text":"help your concentration"
+         }
+      ],
+      "explanation":{
+         "text":"Ensure that you can see clearly through the windscreen of your vehicle. Stickers or hanging objects could affect your field of vision or draw your eyes away from the road."
+      }
+   },
+   {
+      "id":"BB1003",
+      "answers":[
+         {
+            "correct":true,
+            "text":"Loud music"
+         },
+         {
+            "correct":true,
+            "text":"Arguing with a passenger"
+         },
+         {
+            "correct":true,
+            "text":"Using a mobile phone"
+         },
+         {
+            "correct":true,
+            "text":"Putting in a cassette tape"
+         },
+         {
+            "correct":false,
+            "text":"Stopping regularly to rest"
+         },
+         {
+            "correct":false,
+            "text":"Pulling up to tune the radio"
+         }
+      ],
+      "explanation":{
+         "text":"You should not allow yourself to be distracted when driving. You need to concentrate fully in order to be safe on the road. Loud music could mask other sounds, such as the audible warning of an emergency vehicle. Any distraction which causes you to take your hands off the steering wheel or your eyes off the road could be dangerous."
+      }
+   },
+   {
+      "id":"BB1005",
+      "answers":[
+         {
+            "correct":true,
+            "text":"leave the motorway and find a safe place to stop"
+         },
+         {
+            "correct":false,
+            "text":"keep looking around at the surrounding landscape"
+         },
+         {
+            "correct":false,
+            "text":"drive faster to complete your journey sooner"
+         },
+         {
+            "correct":true,
+            "text":"ensure a supply of fresh air into your vehicle"
+         },
+         {
+            "correct":false,
+            "text":"stop on the hard shoulder for a rest"
+         }
+      ],
+      "explanation":{
+         "text":"Plan your journey to include suitable rest stops. You should take all possible precautions against feeling sleepy while driving. Any lapse of concentration could have serious consequences."
+      }
+   },
+   {
+      "id":"BB1007",
+      "answers":[
+         {
+            "correct":true,
+            "text":"even when street lights are not lit"
+         },
+         {
+            "correct":true,
+            "text":"so others can see you"
+         },
+         {
+            "correct":false,
+            "text":"only when others have done so"
+         },
+         {
+            "correct":false,
+            "text":"only when street lights are lit"
+         }
+      ],
+      "explanation":{
+         "text":"Your headlights and tail lights help others on the road to see you. It may be necessary to turn on your lights during the day if visibility is reduced, for example due to heavy rain. In these conditions the light might fade before the street lights are timed to switch on. Be seen to be safe."
+      }
+   },
+   {
+      "id":"BB1011",
+      "answers":[
+         {
+            "correct":false,
+            "text":"Full beam headlights"
+         },
+         {
+            "correct":false,
+            "text":"Sidelights"
+         },
+         {
+            "correct":true,
+            "text":"Dipped headlights"
+         },
+         {
+            "correct":false,
+            "text":"Fog lights"
+         }
+      ],
+      "explanation":{
+         "text":"Use the full beam headlights only when you can be sure that you won't dazzle other road users."
+      }
+   },
+   {
+      "id":"BB1012",
+      "answers":[
+         {
+            "correct":true,
+            "text":"slow down and let the vehicle turn"
+         },
+         {
+            "correct":false,
+            "text":"drive on, keeping to the left"
+         },
+         {
+            "correct":false,
+            "text":"overtake on the right of it"
+         },
+         {
+            "correct":false,
+            "text":"hold your speed and sound your horn"
+         }
+      ],
+      "explanation":{
+         "text":"Large, long vehicles need extra room when making turns at junctions. They may move out to the right in order to make a left turn. Keep well back and don't attempt to pass on the left."
+      }
+   },
+   {
+      "id":"BB1013",
+      "answers":[
+         {
+            "correct":false,
+            "text":"Accelerate to get closer to the red van"
+         },
+         {
+            "correct":false,
+            "text":"Give a long blast on the horn"
+         },
+         {
+            "correct":true,
+            "text":"Drop back to leave the correct separation distance"
+         },
+         {
+            "correct":false,
+            "text":"Flash your headlights several times"
+         }
+      ],
+      "explanation":{
+         "text":"There are times when other drivers make incorrect or ill-judged decisions. Be tolerant and try not to retaliate or react aggressively. Always consider the safety of other road users, your passengers and yourself."
+      }
+   },
+   {
+      "id":"BB1014",
+      "answers":[
+         {
+            "correct":true,
+            "text":"apply the handbrake only"
+         },
+         {
+            "correct":false,
+            "text":"apply the footbrake only"
+         },
+         {
+            "correct":false,
+            "text":"switch off your headlights"
+         },
+         {
+            "correct":false,
+            "text":"use both the handbrake and footbrake"
+         }
+      ],
+      "explanation":{
+         "text":"You should consider drivers behind as brake lights can dazzle. However, if you are driving in fog it's safer to keep your foot on the footbrake. In this case it will give the vehicle behind extra warning of your presence."
+      }
+   }
+]
