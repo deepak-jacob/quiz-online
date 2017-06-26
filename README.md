@@ -1,3 +1,12 @@
+# Multiple Choice Test
+
+This project is now only has very basic functinality and may have many rough edges. Not done any test, need to write unit test and integration tests.
+
+
+Readme from orginal `create-react-app` following
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

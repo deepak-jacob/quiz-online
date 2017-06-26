@@ -1,6 +1,5 @@
 import { createStore, combineReducers, applyMiddleware, compose } from 'redux';
 import thunk from 'redux-thunk';
-import { reducer as formReducer } from 'redux-form';
 import quizReducers from '../reducers';
 
 const middleware = [thunk];
@@ -20,7 +19,6 @@ const enhancer = composeEnhancers(applyMiddleware(...middleware));
 const store = createStore(
   combineReducers({
     quizReducers,
-    form: formReducer,
   }),
   enhancer
 );

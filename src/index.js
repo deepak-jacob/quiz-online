@@ -9,6 +9,7 @@ import store from './store';
 import registerServiceWorker from './registerServiceWorker';
 import './index.css';
 
+// material-ui setup Needed for onTouchTap
 injectTapEventPlugin();
 
 ReactDOM.render(
@@ -22,4 +23,5 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+// PWA, cache static files
 registerServiceWorker();

@@ -2,7 +2,6 @@ import React from 'react';
 import { List, ListItem } from 'material-ui/List';
 import HomeIcon from 'material-ui/svg-icons/action/home';
 import ViewListIcon from 'material-ui/svg-icons/action/view-list';
-import NoteAdd from 'material-ui/svg-icons/action/note-add';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
